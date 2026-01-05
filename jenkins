@@ -12,8 +12,10 @@ stage('packing') {
   sh 'mvn clean package'
  }
 }
-stage('Archving') {
+  stage('Archving') {
   steps {
   archive 'target/*jar'
- }
+     }
+   }
+  }
 }
