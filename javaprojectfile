@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('clonestage'){
             steps {
-                git 'https://github.com/amitopenwriteup/java11-examples.git'
+                git 'https://github.com/rajuahirwar0886/java11-examples.git'
             }
         }
         stage('buildpackage'){
